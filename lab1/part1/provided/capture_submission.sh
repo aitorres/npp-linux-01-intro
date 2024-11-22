@@ -29,8 +29,8 @@ if ! [ -f "./do-lab.sh" ]; then
 fi
 
 
-# check dirs (lab-host1, lab-host2, lab-host3, lab-host4, provided)
-dirs=( lab-host1 lab-host2 lab-host3 lab-host4 provided)
+# check dirs (lab-host1, lab-host2, lab-host3, lab-host4, lab-switch, provided)
+dirs=( lab-host1 lab-host2 lab-host3 lab-host4 lab-switch provided)
 for i in "${dirs[@]}"
 do
    if ! [ -d $i ]; then
